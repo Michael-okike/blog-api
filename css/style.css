@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: burlywood;
+}
+body{
+    font-family: 'Roboto Slab', serif, Arial;
+}
+a, li {
+    text-decoration: none !important;
+    list-style: none;
+}
+  
+.active, #footer ul li a:hover{
+    color: darkviolet !important;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
+.btn-nav{
+    border-radius: 5px 50px 5px 50px;
+    border: 3px solid black;
+}
+.top-section{
+    background-color: #0092c3;
+}
+.news-form{
+    position: relative;
+}
+.news-form input{
+    color: white;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 80px;
+}
+.news-form button{
+    padding: 15px 30px;
+    position: absolute;
+    right: 11px;
+    top: 11px;
+    font-weight: 700;
+}
+.post-cards .card-body, .footer-bottom{
+    background: burlywood;
+}
+.pic{
+    object-fit: cover;
+}
+
+.neu{
+    padding: 20px;
+    background-color: #fbfbfe !important;
+    box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);border-radius: 50px !important;
+    transition: all 0.3s ease-in-out;
+}
+#footer ul li {
+    padding: 7px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer form input[type="email"] {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+}
+.footer-top{
+    background: rgb(240, 220, 194);
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: black;
+  color: #fff;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 5px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top:hover, #footer .social-links a:hover {
+  background: #3e9bdd;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}

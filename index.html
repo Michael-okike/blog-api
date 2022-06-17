@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Slab"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/11bbf1bdc4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand fw-semibold fs-3" href="#"
+            >Serenity<i class="bi bi-mic"></i
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="How may i help?"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark btn-nav px-4" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="top-section py-4">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <img
+              src="img/intro-img.png"
+              class="d-md-block img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="col-lg-6">
+            <div class="caption d-md-block">
+              <h1 class="display-1 fs-bold text-light">
+                Let's start something big together
+              </h1>
+              <p class="text-light fs-semibold fs-3">
+                Get your update <span class="text-warning">news</span>
+              </p>
+              <div class="news-form">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  id=""
+                />
+                <button class="btn btn-warning main-btn">
+                  Send <i class="bi bi-send-fill"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 create-post">
+      <div class="container">
+        <div class="card neu">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-12">
+                <img
+                  src="img/post-2.png"
+                  alt=""
+                  class="img-fluid rounded-4 h-100 pic"
+                />
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <h3 class="mb-lg-5">Create a Post</h3>
+                <form action="" id="post-form">
+                  <div class="mb-3">
+                    <label
+                      for="exampleFormControlInput1"
+                      class="form-label mb-lg-3"
+                      >Post Title</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="title"
+                      placeholder="enter a title"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label
+                      for="exampleFormControlTextarea1"
+                      class="form-label mb-lg-3"
+                      >Post Body</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="body"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div class="d-flex">
+                    <button class="btn btn-primary" type="submit">
+                      Create Post<i class="bi bi-chat-left-text ms-2"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="post-cards">
+      <div class="container">
+        <div class="row" id="post-holder">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="card">
+              <!-- <div class="card-body">
+                <img src="img/post-1.png" class="img-fluid" alt="" />
+                <p id="post-id">1</p>
+                <h6 class="fw-semibold">Post title</h6>
+                <p class="post-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt numquam sequi quidem qui perspiciatis impedit, nulla
+                  necessitatibus quo quas consequatur facilis temporibus
+                  incidunt. Facere, deserunt architecto! Veniam autem, assumend
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button class="btn btn-success" id="view-btn">
+                    View<i class="bi bi-eye ms-2"></i>
+                  </button>
+                  <button class="btn btn-primary">Update</button>
+                  <button class="btn btn-danger">Delete</button>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="footer-top py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4">
+              <h4>Browse Pages</h4>
+              <ul class="ps-0">
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>Home</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>About us</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>Work for us</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>Case study</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>Scaffold awards</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h4>Recent Blog posts</h4>
+              <ul class="ps-0">
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>5 Beautiful
+                    buildings you need to before dying</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>Let's make an
+                    introduction for creative life</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>Did you see the
+                    most beautiful sea in the world?</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>We are making
+                    homemade ravioli, nice and good</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-dark"
+                    ><i class="bi bi-chevron-right me-2"></i>10 practical ways
+                    to choose organic vegetables</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h3 class="pb-2 fs-2 fw-normal">
+                Serenity<i class="bi bi-mic"></i>
+              </h3>
+              <p>
+                Plot 45 Osusu Abali, <br />
+                Okwe New Layout <br />Ngwo, Enugu<br />Nigeria<br /><br />
+                <strong>Phone:</strong> +234 80 8130 5383<br />
+                <strong>Email:</strong> michaelokike57@gmail.com<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container py-4 d-md-flex">
+          <div class="text-center text-md-start me-auto">
+            <div class="copyright">
+              © Copyright <strong><span>Serenity</span></strong
+              >. All Rights Reserved
+            </div>
+          </div>
+          <div class="social-links text-center text-md-right pt-3 pt-lg-0">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-skype"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="container-fluid arrow">
+      <a
+        href="#"
+        class="back-to-top d-flex align-items-center justify-content-center active"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
